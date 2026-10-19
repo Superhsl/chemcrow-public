@@ -1,0 +1,7 @@
+image=lasermpnn-sdaa321-loong:torch2.12.0-sdaa3.2.1-py312
+image_id=sha256:3e425da47a74a03b589f8e1c18a67dcb90c8bcbde977cc1df09fa01209b7a524
+repo_digest=none-local-image
+architecture=loong64
+python=3.12.13
+torch=2.12.0
+torch_sdaa=3.2.1

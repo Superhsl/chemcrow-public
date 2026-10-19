@@ -1,0 +1,4 @@
+metadata_url=https://pypi.org/pypi/torchtext/0.5.0/json
+wheel_url=https://files.pythonhosted.org/packages/79/ef/54b8da26f37787f5c670ae2199329e7dccf195c060b25628d99e587dac51/torchtext-0.5.0-py3-none-any.whl
+sha256=1caed2e155c45b4885daedb735b0f41e2f86ecd9dc788f75f824683bf1645f67
+license=BSD

@@ -1,0 +1,4 @@
+upstream=https://github.com/ur-whitelab/chemcrow-public.git
+commit=e7ebd5193334ac1d8dea137b635721c7cb470d33
+model_url=https://drive.google.com/uc?export=download&id=1ywJCJHunoPTB5wr6KdZ8aLv7tMFMBHNy
+model_sha256=1b610fee588a9632543605d28423ba589d63447d7921bbee36eac1b8a48de587

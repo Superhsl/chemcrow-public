@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+export TORCH_SDAA_AUTOLOAD=cuda_migrate
+if [[ -n "${ONMT_BRIDGE_LOG:-}" ]]; then
+  printf 'backend=sdaa:0 command=onmt.bin.translate flag=--gpu 0\n' >> "$ONMT_BRIDGE_LOG"
+fi
+exec /opt/venvs/chemcrow-sdaa-py312/bin/python -B -m onmt.bin.translate "$@" --gpu 0
